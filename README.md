@@ -191,8 +191,8 @@ with your own Groq API key.
 ### Result Dashboard
 
 <img width="1918" height="957" alt="image" src="https://github.com/user-attachments/assets/a3a2b709-6789-4ea9-9027-98f92e248537" />
+<img width="1918" height="971" alt="Screenshot 2026-06-08 150426" src="https://github.com/user-attachments/assets/019f24f6-4f82-417f-be44-23ccb15f415e" />
 
-[GFG_AI_Quiz_Report (1).pdf](https://github.com/user-attachments/files/28701970/GFG_AI_Quiz_Report.1.pdf)
 <img width="487" height="692" alt="image" src="https://github.com/user-attachments/assets/a112654a-4213-4324-bd0f-69c0a7426f57" />
 
 ## 🎯 Future Enhancements
