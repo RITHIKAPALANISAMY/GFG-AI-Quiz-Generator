@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "GFG AI Quiz Generator",
+  "version": "1.0",
+  "description": "Generate quizzes from GeeksforGeeks articles",
+
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
+
+  "host_permissions": [
+    "https://*.geeksforgeeks.org/*",
+    "https://api.groq.com/*"
+  ],
+
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

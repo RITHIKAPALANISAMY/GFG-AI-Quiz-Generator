@@ -1,0 +1,163 @@
+body {
+    width: 380px;
+    max-height: 600px;
+    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+}
+
+.container {
+    padding: 15px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #1f2937;
+}
+
+/* Buttons */
+
+#generateBtn,
+#submitQuiz,
+#newQuiz,
+#downloadReport {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+#generateBtn {
+    background: #16a34a;
+}
+
+#generateBtn:hover {
+    background: #15803d;
+}
+
+#submitQuiz {
+    background: #2563eb;
+}
+
+#submitQuiz:hover {
+    background: #1d4ed8;
+}
+
+#newQuiz {
+    background: #f59e0b;
+}
+
+#newQuiz:hover {
+    background: #d97706;
+}
+
+#downloadReport {
+    background: #dc2626;
+}
+
+#downloadReport:hover {
+    background: #b91c1c;
+}
+
+#downloadReport:disabled {
+    background: #9ca3af;
+    cursor: not-allowed;
+}
+
+/* Quiz Area */
+
+#quizContainer {
+    margin-top: 15px;
+}
+
+.question {
+    background: white;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.question h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+
+/* Explanation */
+
+.explanation {
+    margin-top: 10px;
+    padding: 8px;
+    background: #fef3c7;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* Result */
+
+.result {
+    margin-top: 15px;
+    padding: 12px;
+    border-radius: 8px;
+    background: #dcfce7;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Loading Spinner */
+
+.loader-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.loader {
+    width: 40px;
+    height: 40px;
+    border: 5px solid #ddd;
+    border-top: 5px solid #2563eb;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: auto;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.result-card {
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 15px;
+  text-align: center;
+  box-shadow:
+    0 4px 12px rgba(0,0,0,0.1);
+}
+
+.score-circle {
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  margin: 15px auto;
+  border-radius: 50%;
+  background: #2563eb;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
