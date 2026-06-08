@@ -222,7 +222,7 @@ with your own Groq API key.
 
 **Rithika P**
 
-Web Development Intern | AI Enthusiast
+Software Developer | FullStack Developer | AI Enthusiast
 
 ---
 
